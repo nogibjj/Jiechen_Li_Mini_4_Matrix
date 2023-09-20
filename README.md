@@ -1,37 +1,31 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
+[![Test Multiple Python Versions](https://github.com/nogibjj/Jiechen_Li_Mini_4_Matrix/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jiechen_Li_Mini_4_Matrix/actions/workflows/cicd.yml)
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+# Jiechen_Li_Mini_4_Matrix Build
+
+## Purpose
+Create a GitHub Actions Matrix Build that tests at least **three versions of Python**.
+
+## Requirements
+* Python (Version 3.9 or 3.10 and 3.11)
+* Pandas (Version 2.0.3)
+* Matplotlib (Version 3.7.3)
+
+## Run
+* install code `make install`
+
+* lint code `make lint`
+   
+* format code `make format`
+
+* test code `make test`
+
+## Output
+
+![img](./matrix_testing.png)
 
 
+## Reference
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
-
-Things included are:
-
-* `Makefile`
-
-* `Pytest`
-
-* `pandas`
-
-* `Ruff`:  
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
-
+Please refer to <a href="https://github.com/nogibjj/matrix-testing" target="_blank">Professor Gift's Template</a>.
 
 
